@@ -41,8 +41,8 @@ export default function Documentation() {
         </UnorderedList>
       </Box>
       <Box
-        margin={{ base: "3em 1em", lg: "0 0 0 2em" }}
-        width={{ base: "90%", md: "35em", lg: "30em" }}
+        margin={{ base: "3em 0", lg: "0 0 0 2em" }}
+        width={{ base: "80%", md: "35em", lg: "30em" }}
       >
         <Text>{`Example Response (Doesn't work yet :( )`}</Text>
         <div className={styles["terminal"]}>
