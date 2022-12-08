@@ -15,25 +15,27 @@ export default function Features() {
         display="flex"
         justifyContent="space-around"
         width={{ base: "auto", lg: "container.lg" }}
-        padding={{base: 'auto', lg: "3em"}}
+        padding={{base: '1em', lg: "3em"}}
         textAlign="center"
         flexDirection={{ base: "column", lg: "row" }}
         flexWrap="wrap"
       >
-        <Box width={{ base: 200, md: 300, lg: 250 }}>
+        <Box width={{ base: '100%', md: 300, lg: 250 }} padding='2em' maxWidth='20em'>
           <Image
             src="/card-image1.svg"
-            height={{ base: 200, md: 300, lg: 250 }}
-            width={{ base: 200, md: 300, lg: 250 }}
+            height={{ base: 'auto', md: 300, lg: 250 }}
+            width={{ base: 'auto', md: 300, lg: 250 }}
+            marginBottom='1em'
           />
           <Text as="b" color="teal.500" fontSize="lg">{`Ask Away`}</Text>
           <Text fontSize="sm">{`Any Yes/No questions are answered immediately with some success`}</Text>
         </Box>
-        <Box width={{ base: 200, md: 300, lg: 250 }}>
+        <Box width={{ base: '100%', md: 300, lg: 250 }} padding='2em' maxWidth='20em'>
           <Image
             src="/card-image2.svg"
-            height={{ base: 200, md: 300, lg: 250 }}
-            width={{ base: 200, md: 300, lg: 250 }}
+            height={{ base: 'auto', md: 300, lg: 250 }}
+            width={{ base: 'auto', md: 300, lg: 250 }}
+            marginBottom='1em'
           />
           <Text
             as="b"
@@ -42,11 +44,12 @@ export default function Features() {
           >{`Questions Answered`}</Text>
           <Text fontSize="sm">{`If yes, make it so! If  not, do not do that thing`}</Text>
         </Box>
-        <Box width={{ base: 200, md: 300, lg: 250 }}>
+        <Box width={{ base: '100%', md: 300, lg: 250 }} padding='2em' maxWidth='20em'>
           <Image
             src="/card-image3.svg"
-            height={{ base: 200, md: 300, lg: 250 }}
-            width={{ base: 200, md: 300, lg: 250 }}
+            height={{ base: 'auto', md: 300, lg: 250 }}
+            width={{ base: 'auto', md: 300, lg: 250 }}
+            marginBottom='1em'
           />
           <Text as="b" color="teal.500" fontSize="lg">{`Done`}</Text>
           <Text fontSize="sm">{`Rest easy knowing your question has been answered, regardless of context or accuracy`}</Text>
