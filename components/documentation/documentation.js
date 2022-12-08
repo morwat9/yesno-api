@@ -13,7 +13,7 @@ export default function Documentation() {
       <Box
         lineHeight="10"
         padding="0 2em"
-        width={{ base: "base", md: "40em", lg: "30em" }}
+        width={{ base: "auto", md: "40em", lg: "30em" }}
       >
         <Text fontSize="4xl" as="b">
           {"yesNo Public API Docs"}
