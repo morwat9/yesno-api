@@ -15,25 +15,25 @@ export default function Features() {
         display="flex"
         justifyContent="space-around"
         width={{ base: "auto", lg: "container.lg" }}
-        padding="3em"
+        padding={{base: 'auto', lg: "3em"}}
         textAlign="center"
         flexDirection={{ base: "row", lg: "row" }}
         flexWrap="wrap"
       >
-        <Box width={{ base: 215, md: 300, lg: 250 }}>
+        <Box width={{ base: 200, md: 300, lg: 250 }}>
           <Image
             src="/card-image1.svg"
-            height={{ base: 215, md: 300, lg: 250 }}
-            width={{ base: 215, md: 300, lg: 250 }}
+            height={{ base: 200, md: 300, lg: 250 }}
+            width={{ base: 200, md: 300, lg: 250 }}
           />
           <Text as="b" color="teal.500" fontSize="lg">{`Ask Away`}</Text>
           <Text fontSize="sm">{`Any Yes/No questions are answered immediately with some success`}</Text>
         </Box>
-        <Box width={{ base: 215, md: 300, lg: 250 }}>
+        <Box width={{ base: 200, md: 300, lg: 250 }}>
           <Image
             src="/card-image2.svg"
-            height={{ base: 215, md: 300, lg: 250 }}
-            width={{ base: 215, md: 300, lg: 250 }}
+            height={{ base: 200, md: 300, lg: 250 }}
+            width={{ base: 200, md: 300, lg: 250 }}
           />
           <Text
             as="b"
@@ -42,11 +42,11 @@ export default function Features() {
           >{`Questions Answered`}</Text>
           <Text fontSize="sm">{`If yes, make it so! If  not, do not do that thing`}</Text>
         </Box>
-        <Box width={{ base: 215, md: 300, lg: 250 }}>
+        <Box width={{ base: 200, md: 300, lg: 250 }}>
           <Image
             src="/card-image3.svg"
-            height={{ base: 215, md: 300, lg: 250 }}
-            width={{ base: 215, md: 300, lg: 250 }}
+            height={{ base: 200, md: 300, lg: 250 }}
+            width={{ base: 200, md: 300, lg: 250 }}
           />
           <Text as="b" color="teal.500" fontSize="lg">{`Done`}</Text>
           <Text fontSize="sm">{`Rest easy knowing your question has been answered, regardless of context or accuracy`}</Text>
