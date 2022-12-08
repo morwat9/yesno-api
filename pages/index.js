@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import NavBar from '../components/navbar/navbar'
-import Header from '../components/header/header'
-import Features from '../components/features/features'
-import Documentation from '../components/documentation/documentation'
-import Pricing from '../components/pricing/pricing'
-import { Box } from '@chakra-ui/react'
-import Footer from '../components/footer/footer'
+import Head from "next/head";
+import NavBar from "../components/navbar/navbar";
+import Header from "../components/header/header";
+import Features from "../components/features/features";
+import Documentation from "../components/documentation/documentation";
+import Pricing from "../components/pricing/pricing";
+import { Box } from "@chakra-ui/react";
+import Footer from "../components/footer/footer";
 
 export default function Home() {
   return (
@@ -30,7 +30,6 @@ export default function Home() {
       <Pricing />
 
       <Footer />
-
     </div>
-  )
+  );
 }

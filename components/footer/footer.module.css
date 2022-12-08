@@ -1,5 +1,6 @@
 .svg-border {
-    /* filter: invert(60%) sepia(35%) saturate(756%) hue-rotate(128deg) brightness(96%) contrast(83%); */
-    filter: invert(46%) sepia(93%) saturate(305%) hue-rotate(130deg) brightness(93%) contrast(87%);
-    margin-top: -1px;
-  }
+  /* filter: invert(60%) sepia(35%) saturate(756%) hue-rotate(128deg) brightness(96%) contrast(83%); */
+  filter: invert(46%) sepia(93%) saturate(305%) hue-rotate(130deg)
+    brightness(93%) contrast(87%);
+  margin-bottom: -1px;
+}
