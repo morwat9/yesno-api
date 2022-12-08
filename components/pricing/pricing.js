@@ -16,7 +16,7 @@ export default function Pricing() {
       display="flex"
       flexDirection={{ base: "column" }}
       alignItems="center"
-      marginTop="10em"
+      marginTop="2em"
     >
       <Box textAlign="center" margin="0 1em">
         <Text fontWeight={700} fontSize="sm" color="teal.500">{`PRICING`}</Text>

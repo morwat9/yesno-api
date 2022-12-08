@@ -3,7 +3,7 @@ import { Box, Text, Image } from "@chakra-ui/react";
 export default function Features() {
   return (
     <Box flexDir="column" display="flex" paddingTop="8em" alignItems="center">
-      <Box textAlign="center" padding="0 2em">
+      <Box textAlign="center" padding="2em 2em">
         <Text fontSize="sm" fontWeight={700} color="teal.500">
           {`FEATURES`}
         </Text>
@@ -17,7 +17,7 @@ export default function Features() {
         width={{ base: "auto", lg: "container.lg" }}
         padding={{base: 'auto', lg: "3em"}}
         textAlign="center"
-        flexDirection={{ base: "row", lg: "row" }}
+        flexDirection={{ base: "column", lg: "row" }}
         flexWrap="wrap"
       >
         <Box width={{ base: 200, md: 300, lg: 250 }}>
