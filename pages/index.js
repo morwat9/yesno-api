@@ -16,12 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Box id="home"></Box>
+
       <NavBar />
 
       <Header />
-
-      {/* TODO: Fix logobar if it matters */}
-      {/* <LogoBar /> */}
 
       <Features />
 

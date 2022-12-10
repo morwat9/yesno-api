@@ -1,4 +1,4 @@
-import { Box, Text, Heading, Button, Image } from "@chakra-ui/react";
+import { Box, Text, Heading, Button, Image, Link } from "@chakra-ui/react";
 import styles from "./header.module.css";
 
 export default function Header() {
@@ -27,17 +27,19 @@ export default function Header() {
             paddingTop="2em"
             fontWeight={500}
           >{`Use yesNo to help with your most important decisions!`}</Text>
-          <Button
-            size="lg"
-            color="teal.500"
-            borderRadius="100px"
-            marginTop="2em"
-            p="0 3em"
-            fontSize="sm"
-            fontWeight="bold"
-            outline="3px solid"
-            outlineColor="teal.500"
-          >{`VIEW DOCS`}</Button>
+          <Link href="#docs">
+            <Button
+              size="lg"
+              color="teal.500"
+              borderRadius="100px"
+              marginTop="2em"
+              p="0 3em"
+              fontSize="sm"
+              fontWeight="bold"
+              outline="3px solid"
+              outlineColor="teal.500"
+            >{`VIEW DOCS`}</Button>
+          </Link>
         </Box>
         <Image
           src="./software-things.png"

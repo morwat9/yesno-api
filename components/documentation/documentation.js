@@ -9,12 +9,10 @@ export default function Documentation() {
       justifyContent="center"
       alignItems="center"
       paddingTop={{ base: "5em", lg: "10em" }}
-      padding='8em 1em'
+      padding="8em 1em"
+      id="docs"
     >
-      <Box
-        lineHeight="10"
-        width={{ base: "auto", md: "40em", lg: "30em" }}
-      >
+      <Box lineHeight="10" width={{ base: "auto", md: "40em", lg: "30em" }}>
         <Text fontSize="4xl" as="b">
           {"yesNo Public API Docs"}
         </Text>
@@ -35,7 +33,7 @@ export default function Documentation() {
             {`Please submit questions all as one word with no special characters. The server crashes and I have to restart it if it encounters a question mark.`}
           </ListItem>
           <ListItem as="b">{"Example"}</ListItem>
-          <ListItem fontSize='sm'>
+          <ListItem fontSize="sm">
             {".../question/ShouldITripleInvestInYesNoCoin"}
           </ListItem>
         </UnorderedList>
